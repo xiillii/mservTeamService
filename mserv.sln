@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mserv.TeamService", "src\mserv.TeamService\mserv.TeamService.csproj", "{CEC69037-BFDC-4EA6-A185-E4D9CB2FEAFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mserv.TeamService.Tests", "test\mserv.TeamService.Tests\mserv.TeamService.Tests.csproj", "{86C8C995-15EA-4EF7-8752-1D7A8231066B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{CEC69037-BFDC-4EA6-A185-E4D9CB2FEAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEC69037-BFDC-4EA6-A185-E4D9CB2FEAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEC69037-BFDC-4EA6-A185-E4D9CB2FEAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C8C995-15EA-4EF7-8752-1D7A8231066B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C8C995-15EA-4EF7-8752-1D7A8231066B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C8C995-15EA-4EF7-8752-1D7A8231066B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C8C995-15EA-4EF7-8752-1D7A8231066B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,7 +1,13 @@
 ﻿<Properties StartupConfiguration="{CEC69037-BFDC-4EA6-A185-E4D9CB2FEAFC}|Default">
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/mserv.TeamService.Tests/MembersControllerTest.cs">
+    <Files>
+      <File FileName="test/mserv.TeamService.Tests/MembersControllerTest.cs" Line="13" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.mserv.TeamService PreferredExecutionTarget="MonoDevelop.Default" />
