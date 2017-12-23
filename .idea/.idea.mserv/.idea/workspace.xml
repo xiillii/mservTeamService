@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85baa52c-43d8-4670-b2cf-8132ace26328" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mserv.TeamService/Controllers/MembersController.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mserv.TeamService/Controllers/TeamsController.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mserv.TeamService/Models/Member.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mserv.TeamService/Models/Team.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mserv.TeamService/Persistence/ITeamRepository.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mserv.TeamService/Persistence/MemoryTeamRepository.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mserv.TeamService/docker_entrypoint.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mserv.TeamService.Tests/MembersControllerTest.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mserv.TeamService.Tests/TeamsControllerTest.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mserv.TeamService.Tests/TestMemoryTeamRepository.cs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mserv.TeamService/Controllers/ValuesController.cs" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.mserv/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.mserv/.idea/contentModel.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.mserv/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.mserv/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.mserv/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.mserv/riderModule.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mserv.sln" afterPath="$PROJECT_DIR$/mserv.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mserv.userprefs" afterPath="$PROJECT_DIR$/mserv.userprefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mserv.TeamService/mserv.TeamService.csproj" afterPath="$PROJECT_DIR$/src/mserv.TeamService/mserv.TeamService.csproj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -139,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeamsControllerTest.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TeamsControllerTest.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/mserv.TeamService.Tests/TeamsControllerTest.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="110" column="9" lean-forward="true" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+              <caret line="110" column="9" lean-forward="false" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
               <folding>
                 <marker date="1514012299652" expanded="false" signature="6:180" ph="..." />
                 <marker date="1514012299652" expanded="true" signature="215:5470" ph="{...}" />
@@ -156,6 +140,23 @@
                 <marker date="1514012299652" expanded="true" signature="3588:4194" ph="{...}" />
                 <marker date="1514012299652" expanded="true" signature="4262:5140" ph="{...}" />
                 <marker date="1514012299652" expanded="true" signature="5219:5462" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleIntegrationTests.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/mserv.TeamService.Tests.Integration/SimpleIntegrationTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <marker date="1514013895376" expanded="false" signature="6:230" ph="..." />
+                <marker date="1514013895376" expanded="true" signature="277:1738" ph="{...}" />
+                <marker date="1514013895376" expanded="true" signature="319:1736" ph="{...}" />
+                <marker date="1514013895376" expanded="true" signature="524:835" ph="{...}" />
+                <marker date="1514013895376" expanded="true" signature="740:824" ph="{...}" />
+                <marker date="1514013895376" expanded="true" signature="898:1730" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -193,6 +194,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test/mserv.TeamService.Tests.Integration/SimpleIntegrationTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/mserv.TeamService/Models/Member.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/mserv.TeamService/Models/Team.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/test/mserv.TeamService.Tests/TeamsControllerTest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -218,6 +220,8 @@
         <option value="$PROJECT_DIR$/test/mserv.TeamService.Tests/TestMemoryTeamRepository.cs" />
         <option value="$PROJECT_DIR$/test/mserv.TeamService.Tests/MembersControllerTest.cs" />
         <option value="$PROJECT_DIR$/test/mserv.TeamService.Tests/TeamsControllerTest.cs" />
+        <option value="$PROJECT_DIR$/test/mserv.TeamService.Tests.Integration/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/test/mserv.TeamService.Tests.Integration/SimpleIntegrationTests.cs" />
       </list>
     </option>
   </component>
@@ -255,7 +259,12 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="mserv (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="mserv (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="mserv (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="mserv.TeamService.Tests.Integration" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -324,12 +333,12 @@
       <workItem from="1513325085346" duration="4335000" />
       <workItem from="1513577830589" duration="93000" />
       <workItem from="1513736488808" duration="6991000" />
-      <workItem from="1514008957468" duration="3082000" />
+      <workItem from="1514008957468" duration="4249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17735000" />
+    <option name="totallyTimeSpent" value="18902000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,12 +355,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19037871" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19037871" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2393736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2393736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -972,7 +981,7 @@
     <entry file="file://$PROJECT_DIR$/test/mserv.TeamService.Tests/TeamsControllerTest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="110" column="9" lean-forward="true" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+          <caret line="110" column="9" lean-forward="false" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
           <folding>
             <marker date="1514012299652" expanded="false" signature="6:180" ph="..." />
             <marker date="1514012299652" expanded="true" signature="215:5470" ph="{...}" />
@@ -985,6 +994,21 @@
             <marker date="1514012299652" expanded="true" signature="3588:4194" ph="{...}" />
             <marker date="1514012299652" expanded="true" signature="4262:5140" ph="{...}" />
             <marker date="1514012299652" expanded="true" signature="5219:5462" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mserv.TeamService.Tests.Integration/SimpleIntegrationTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <marker date="1514013895376" expanded="false" signature="6:230" ph="..." />
+            <marker date="1514013895376" expanded="true" signature="277:1738" ph="{...}" />
+            <marker date="1514013895376" expanded="true" signature="319:1736" ph="{...}" />
+            <marker date="1514013895376" expanded="true" signature="524:835" ph="{...}" />
+            <marker date="1514013895376" expanded="true" signature="740:824" ph="{...}" />
+            <marker date="1514013895376" expanded="true" signature="898:1730" ph="{...}" />
           </folding>
         </state>
       </provider>
